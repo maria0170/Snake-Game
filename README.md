@@ -8,7 +8,7 @@ A console-based implementation of the classic **Snake** game built in Python. Th
 
 ---
 
-## 📖 Overview
+##  Overview
 
 The Snake Game is played on a 2D grid where the player controls a snake that moves around the board collecting food. Each time the snake eats food, it grows longer. The objective is to survive as long as possible while avoiding collisions with the snake's own body.
 
@@ -16,20 +16,20 @@ The project focuses on implementing the game's core mechanics using Python funct
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🟩 Dynamic 2D game board generation
-- 🐍 Snake movement and growth mechanics
-- 🍎 Food placement and consumption
-- 🔄 Wrap-around movement at board boundaries
-- 🚫 Self-collision detection
-- 🎮 Direction updates with prevention of illegal reverse movement
-- 🖥️ Text-based board rendering
-- ✅ Built-in doctests for function validation
+-  Dynamic 2D game board generation
+-  Snake movement and growth mechanics
+-  Food placement and consumption
+-  Wrap-around movement at board boundaries
+-  Self-collision detection
+-  Direction updates with prevention of illegal reverse movement
+-  Text-based board rendering
+- Built-in doctests for function validation
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - Lists and nested lists (2D arrays)
@@ -40,7 +40,7 @@ The project focuses on implementing the game's core mechanics using Python funct
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 snake_game.py      # Core game logic
@@ -50,7 +50,7 @@ README.md          # Project documentation
 
 ---
 
-## 📚 Core Functions
+##  Core Functions
 
 | Function | Description |
 |----------|-------------|
@@ -65,7 +65,7 @@ README.md          # Project documentation
 
 ---
 
-## 🎮 Game Representation
+##  Game Representation
 
 Each board cell is represented by a single character:
 
@@ -86,7 +86,7 @@ S . . .
 
 ---
 
-## 🚀 Example Usage
+##  Example Usage
 
 ```python
 board = make_board(4, 3)
@@ -109,7 +109,7 @@ S . . .
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 This project uses Python's built-in **doctest** module.
 
@@ -123,7 +123,7 @@ Every function includes doctests to verify expected behavior.
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 This project demonstrates practical experience with:
 
@@ -139,7 +139,7 @@ This project demonstrates practical experience with:
 
 ---
 
-## 📈 Skills Demonstrated
+## Skills Demonstrated
 
 - Python
 - Algorithm Design
@@ -152,12 +152,3 @@ This project demonstrates practical experience with:
 
 ---
 
-## 👩‍💻 Author
-
-Developed as part of a Computer Science programming project to strengthen problem-solving skills, data structure knowledge, and algorithm implementation in Python.
-
----
-
-## 📄 License
-
-This project is intended for educational purposes.
